@@ -1,0 +1,149 @@
+.sos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22vw;
+
+}
+
+.checkout-step {
+    font-weight: 500;
+    color: #696b79;
+    margin: 20px;
+}
+
+.sabkuch {
+    margin-left: 16.5vw;
+    margin-bottom: 40px;
+}
+
+.divider {
+    margin-top: 18px;
+    display: inline-block;
+    border-top: 1px dashed #696b79;
+    height: 20px;
+    width: 75px;
+}
+
+.checkout-step .activestep {
+    color: #20bd99;
+}
+
+.activestep::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 100%;
+    top: 2px;
+    background-color: #20bd99;
+    transform: scale(1);
+}
+
+.secure-icon img {
+    margin-top: 10px;
+    width: 28px;
+    height: 30px;
+}
+
+.secure-icon span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #696b79;
+}
+
+/* main css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+  } */
+
+.form-container {
+    font-size: 12px;
+
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    flex: 1;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.address-type {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background: #fd465b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer-options {
+    padding: 8px;
+    margin-left: 28vw;
+}
+
+.footer-options img {
+    margin: 2px;
+    height: 37px;
+    width: 60px;
+}
+
+.footer-text {
+    color: black;
+    font-size: 15px;
+    margin-left: 10vw;
+}

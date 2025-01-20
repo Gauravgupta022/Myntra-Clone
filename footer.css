@@ -1,0 +1,272 @@
+.footer {
+    background-color: rgb(240, 240, 244);
+    color: #6e6d6de3;
+    font-weight: 350;
+
+}
+
+.footer_container {
+    margin: 0 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_column {
+    margin-top: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 13px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.appLink {
+    display: flex;
+}
+
+.appLink img {
+    height: 50px;
+    width: 150px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.socialmedia-icon {
+    display: flex;
+    height: 50px;
+    width: 300px;
+}
+
+.socialmedia-icon i {
+    font-size: 22px;
+    margin: 0 5px;
+    color: #696b79;
+}
+
+.original img {
+    display: flex;
+    height: 40px;
+    width: 48px;
+    margin: 15px 0;
+}
+
+.returnIcon img {
+    display: flex;
+    height: 48px;
+    width: 48px;
+}
+
+.icon-text {
+    display: flex;
+    text-align: center;
+    margin:10px 0px;
+}
+
+.original-icon img {
+    height: 40px;
+    width: 48px;
+}
+
+.return-icon img {
+    height: 49px;
+    width: 48px;
+}
+
+.text {
+    margin: 0px 15px;
+    font-size: 15px;
+    color: #7e7d7d;
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(31, 31, 31);
+}
+
+
+.popular-searches {
+    color: #282c3f;
+    margin: 0px 200px;
+    font-size: 14px;
+
+
+}
+
+.popular-searchesItems a {
+    margin: 3px;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+.down-footer{
+    margin: 0 150px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #676767;
+}
+
+.contactUs{
+    line-height: -30px;
+    text-align: start;
+    font-size: 15px;
+}
+
+.contactUs b{
+   
+    color: rgb(105, 105, 252);
+}
+
+.contactUs a{
+    text-decoration: none;
+}
+
+.copyright {
+    margin: 0 100px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.company1{
+    text-align: end;
+}
+
+.hr{
+    margin: 0 200px;
+}
+
+.address{
+    margin: 0 175px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+
+.add-ress{
+    text-align: start;   
+}
+
+.add-ress h4{
+    color: rgb(31, 31, 31);
+}
+
+.number{
+    margin: 120px 0px 0px 0px;
+    text-align: end;
+}
+
+.num-ber b{
+    color: rgb(104, 104, 251);
+}
+
+.num-ber a{
+    text-decoration: none;
+}
+
+.hr1{
+    margin: 0 200px;
+}
+
+.description{
+    margin: 30px 200px;
+    color: rgb(84, 83, 83);
+    font-size: 13px;
+}
+
+.description span{
+    color: grey;
+    font-size: 14px;
+}
+
+.description span b{
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+}
+
+.list1{
+    margin: 30px 200px;
+    color: rgb(84, 83, 83);
+    font-size: 15px;
+}
+
+.list1 ol li{
+    margin: 15px 0;
+    font-size: 13px;
+    color: grey;
+}
+
+.list1 ol li b{
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+}
+
+.list2{
+    margin: 30px 200px;
+    color: rgb(84, 83, 83);
+}
+
+.list2 ul li{
+    margin: 10px 0px;
+    color: rgb(84, 83, 83);
+    font-size: 13px;
+    font-weight: 350;
+}
+
+.list3{
+    margin: 30px 200px;
+    color: rgb(84, 83, 83);
+    font-size: 15px;
+}
+
+.list3 ol li{
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+.list3 ol li b{
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+}
+
+.list3 ol p{
+    font-size: 13px;
+    font-weight: 350;
+    color: grey;
+}
+
+.description1{
+    margin: -11px 200px;
+    padding: 15px 0;
+    color: rgb(84, 83, 83);
+    font-size: 13px;
+}
+
+.description1 b{
+    color: rgb(70, 69, 69);
+}
+
+.description1 p{
+    color: grey;
+    font-weight: 350;
+}
+
+.description1 p a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+
+
